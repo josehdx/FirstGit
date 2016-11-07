@@ -25,6 +25,17 @@ public class ImcCalculator {
 		int altura1 = altura.nextInt();
 		
 		
+		/*
+		try { 
+			
+			 altura1 = Integer.parseInt(altura.next());
+		
+		
+		} catch (NumberFormatException e) {
+			System.out.println("El valor no puede ser una letra");
+		}
+		
+		*/
 		
 		if (altura1 == 0){
 			System.out.println("Error la altura no puede ser cero, intenta de nuevo");
